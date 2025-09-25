@@ -76,19 +76,17 @@ if height >= 120:<br>
         print("You have to pay $7")<br>
     else:
         print("You have to pay $5")<br>
-
 else:
     print("You can't ride the rollercoaster")<br>
 
     ---
 
-<h3>Rollercoaster with Photos & Special Age Pricing</h3>
-print("Welcome to the roller coaster ")
-height = int(input("Please enter your height in cm: \n"))
 
-if height >= 120:
-    print("You can ride the rollercoaster")
-    
+<h3>Rollercoaster with Photos & Special Age Pricing</h3>
+print("Welcome to the roller coaster ")<br>
+height = int(input("Please enter your height in cm: \n"))<br>
+if height >= 120:<br>
+    print("You can ride the rollercoaster")<br>
     age = int(input("Enter your age: "))
     if 18 <= age < 45:
         bill = 12
@@ -126,22 +124,23 @@ print(10 % 3)  # 1
 ---
 
 <h3>Odd or Even Number Check</h3>
-n = int(input("enter a number:\n"))
-if n % 2 == 0:
-    print("the number is even")
-else:
-    print("the number is odd")
+n = int(input("enter a number:\n"))<br>
+if n % 2 == 0:<br>
+    print("the number is even")<br>
+else:<br>
+    print("the number is odd")<br>
+
+---
 
 <h3>💰 Pizza Order Calculator</h3>
 print("Welcome to Domino's")
-
 size = input("What size of pizza do you want? S, M or L:\n")
 pepperoni = input("Do you want pepperoni on your pizza? Y or N:\n")
 extra_cheese = input("Do you want extra cheese on your pizza? Y or N:\n")
 
 bill = 0  # initialize bill
 
-# price as per size
+price as per size
 if size == "S":<br>
     bill += 15<br>
 elif size == "M":<br>
@@ -151,17 +150,16 @@ elif size == "L":<br>
 else:<br>
     print("Please type S, M or L")<br>
 
-# adding pepperoni
+adding pepperoni
 if pepperoni == "Y":<br>
     if size == "S":<br>
         bill += 2   <br>
     else:<br>
         bill += 3 <br>  
 
-# adding extra cheese
+adding extra cheese
 if extra_cheese == "Y":  <br>
     bill += 1<br>
-
 print(f"Your final bill amount is ${bill}")
 
 
@@ -174,7 +172,6 @@ choice1 = input("Choose whether you want to go left or right: L or R \n")<br>
 if choice1 == "L":<br>
     choice2 = input("You have come to a lake. There is an island in the middle of the lake. "
                     "Do you want to swim or wait for a boat? S or W \n")<br>
-
     if choice2 == "W":
         choice3 = input("You arrived at the island unharmed. "
                         "There is a house with 3 doors: Yellow, Red, and Blue. "
@@ -190,8 +187,7 @@ if choice1 == "L":<br>
             print("Choose either B, Y, or R.")
     else:
         print("You got attacked by a trout. Game Over.")
-
-elif choice1 == "R":
-    print("You fell into a hole. Game Over.")
-else:
-    print("Please choose L or R.")
+elif choice1 == "R":<br>
+    print("You fell into a hole. Game Over.")<br>
+else:<br>
+    print("Please choose L or R.")<br>
