@@ -28,6 +28,7 @@ This is a multi-line comment
 You can use triple quotes for it
 """
 On Mac, you can also use Command + / to toggle comments in many editors.<br>
+
 ---
 
 <h3> String Concatenation </h3>
@@ -36,6 +37,7 @@ print('Hello ' + 'Angela')
 Output:
 Hello Angela
 (Notice there’s a space after Hello so the output is properly spaced.)<br>
+
 ---
 
 <h3>Printing on Multiple Lines </h3>
@@ -44,6 +46,7 @@ print('Hello \nHello')
 Output:
 Hello
 Hello<br>
+
 ---
 
 <h3>Taking Input </h3>
@@ -59,4 +62,5 @@ print("Hello " + name)
 Output Example:
 What is your name? John
 Hello John
+
 ---
