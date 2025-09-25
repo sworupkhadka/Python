@@ -28,26 +28,25 @@ Treasure Island Mini Game
 <h3>BMI Check with Conditions</h3>
 weight = 85
 height = 1.85
-
 bmi = weight / (height ** 2)
-
 if bmi < 18.5:
-    print("underweight") <br>
+    print("underweight") <
 elif 18.5 <= bmi < 25:
-    print("normal weight")<br>
+    print("normal weight")
 elif 25 <= bmi < 29.9:
     print("overweight")
 
-    ---
+---
 
-<h3>Rollercoaster Height Check</h3>
-print("welcome to the roller coaster ") <br>
-height = int(input("please enter your height in cm: \n"))<br>
 
-if height >= 120:<br>
-    print("you can ride the rollercoaster")<br>
+<h3>Rollercoaster Height Check<
+print("welcome to the roller coaster ") 
+height = int(input("please enter your height in cm: \n"))
+
+if height >= 120:
+    print("you can ride the rollercoaster")
 else:
-    print("you cant ride the rollercoaster")<br>
+    print("you cant ride the rollercoaster")
 
 ---
 
