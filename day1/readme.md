@@ -1,46 +1,61 @@
-<h1>day 1 </h1>
+# Day 1  
+
+<h3>## 🐍 Python Basics</h3>  
+
+This README explains some basic concepts in Python including:  
+
+> **Topics Covered**
+> - Printing output  
+> - Comments  
+> - String concatenation  
+> - Multi-line output  
+> - Variables and input  
+
+---
+
+<h3>Printing in Python </h3>
+The simplest method to print output is using the `print()` function:  
+print('Hello World')<br>
 
 
--- Python Basics
-
-This README explains some basic concepts in Python including printing, comments, string concatenation, and multi-line output.
-
--- Printing in Python
-
-The simplest method to print output is using the `print()` function:
-python
-print('Hello World')
-
-
--- comment   
+<h3>Comments </h3>
+Python uses # for single-line comments:
 x = 5  # This is an inline comment
-uses # for comments
+Tip:
+You can also use triple quotes for multi-line comments.
+"""
+This is a multi-line comment
+You can use triple quotes for it
+"""
+On Mac, you can also use Command + / to toggle comments in many editors.<br>
 
-we ans also use triple quotations ti=o comment multiple lines like """ '""" or ''' ''' 
-or also use 
-command + / in mac 
+
+<h3> String Concatenation </h3>
+The + operator is used to concatenate (join) strings:
+print('Hello ' + 'Angela')
+Output:
+Hello Angela
+(Notice there’s a space after Hello so the output is properly spaced.)<br>
 
 
--- String Concatenation
-The + operator is used to concatenate strings:
-print('Hello ' + 'Angela')           
-Hello Angela         
- #there is a space after hello i.e. 'hello__' +     
-
--- Printing in Multiple Lines
-
-To print text on different lines, use the newline character \n
-
-print('Hello \n Hello')
+<h3>Printing on Multiple Lines </h3>
+To print text on different lines, use the newline character \n:
+print('Hello \nHello')
 Output:
 Hello
-Hello
+Hello<br>
 
 
--- use use input command to ask for inputs
-eg. input("what is your name?")
+<h3>Taking Input </h3>
+You can ask the user for input using the input() function:
+name = input("What is your name? ")
+print(name) <br>
 
--- variables in python 
-eg 
-name=input ("what is your name ")
-print(name)
+
+<h3>Variables in Python</h3>
+Variables store data. Example:
+name = input("What is your name? ")
+print("Hello " + name)
+Output Example:
+What is your name? John
+Hello John
