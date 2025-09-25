@@ -1,10 +1,13 @@
-Day 3
-<h3>## 🐍 Conditional Statements, Logical Operations, Code Blocks & Scopes</h3>
+<h2>Day 3</h2>
+<h3> Conditional Statements, Logical Operations, Code Blocks & Scopes</h3>
 
+---
 This README explains Python concepts related to conditional statements, logical operators, scopes, and nested if-else blocks.
 
-Topics Covered
+---
+<h3>Topics Covered</h3>
 
+---
 BMI Check with Conditions
 
 Conditional Statements (if, elif, else)
@@ -21,6 +24,7 @@ Pizza Order Calculator
 
 Treasure Island Mini Game
 
+---
 <h3>BMI Check with Conditions</h3>
 weight = 85
 height = 1.85
@@ -28,20 +32,24 @@ height = 1.85
 bmi = weight / (height ** 2)
 
 if bmi < 18.5:
-    print("underweight")
+    print("underweight") <br>
 elif 18.5 <= bmi < 25:
-    print("normal weight")
+    print("normal weight")<br>
 elif 25 <= bmi < 29.9:
     print("overweight")
 
-<h3>Rollercoaster Height Check</h3>
-print("welcome to the roller coaster ")
-height = int(input("please enter your height in cm: \n"))
+    ---
 
-if height >= 120:
-    print("you can ride the rollercoaster")
+<h3>Rollercoaster Height Check</h3>
+print("welcome to the roller coaster ") <br>
+height = int(input("please enter your height in cm: \n"))<br>
+
+if height >= 120:<br>
+    print("you can ride the rollercoaster")<br>
 else:
-    print("you cant ride the rollercoaster")
+    print("you cant ride the rollercoaster")<br>
+
+---
 
 <h3>Logical Operators</h3>
 
@@ -53,23 +61,26 @@ else:
 
 != not equal to
 
+---
 <h3>Nested If-Else (Rollercoaster with Age Pricing)</h3>
-print("Welcome to the roller coaster ")
-height = int(input("Please enter your height in cm: \n"))
+print("Welcome to the roller coaster ")<br>
+height = int(input("Please enter your height in cm: \n"))<br>
 
-if height >= 120:
-    print("You can ride the rollercoaster")
+if height >= 120:<br>
+    print("You can ride the rollercoaster")<br>
     
-    age = int(input("Enter your age: "))
-    if age > 18:
-        print("You have to pay $12")
-    elif age > 12 and age <= 18:  # python uses elif instead of elseif
-        print("You have to pay $7")
+    age = int(input("Enter your age: "))<br>
+    if age > 18:<br>
+        print("You have to pay $12")<br>
+    elif age > 12 and age <= 18:  # python uses elif instead of elseif<br>
+        print("You have to pay $7")<br>
     else:
-        print("You have to pay $5")
+        print("You have to pay $5")<br>
 
 else:
-    print("You can't ride the rollercoaster")
+    print("You can't ride the rollercoaster")<br>
+
+    ---
 
 <h3>Rollercoaster with Photos & Special Age Pricing</h3>
 print("Welcome to the roller coaster ")
@@ -100,6 +111,9 @@ if height >= 120:
 else:
     print("You can't ride the rollercoaster")
 
+
+---
+
 <h3>Modulo Operator</h3>
 
 Gives the remainder of division.
@@ -108,6 +122,8 @@ Examples:
 
 print(10 % 2)  # 0
 print(10 % 3)  # 1
+
+---
 
 <h3>Odd or Even Number Check</h3>
 n = int(input("enter a number:\n"))
@@ -126,36 +142,38 @@ extra_cheese = input("Do you want extra cheese on your pizza? Y or N:\n")
 bill = 0  # initialize bill
 
 # price as per size
-if size == "S":
-    bill += 15
-elif size == "M":
-    bill += 20
-elif size == "L":
-    bill += 25
-else:
-    print("Please type S, M or L")
+if size == "S":<br>
+    bill += 15<br>
+elif size == "M":<br>
+    bill += 20<br>
+elif size == "L":<br>
+    bill += 25<br>
+else:<br>
+    print("Please type S, M or L")<br>
 
 # adding pepperoni
-if pepperoni == "Y":
-    if size == "S":
-        bill += 2   
-    else:
-        bill += 3   
+if pepperoni == "Y":<br>
+    if size == "S":<br>
+        bill += 2   <br>
+    else:<br>
+        bill += 3 <br>  
 
 # adding extra cheese
-if extra_cheese == "Y":  
-    bill += 1
+if extra_cheese == "Y":  <br>
+    bill += 1<br>
 
 print(f"Your final bill amount is ${bill}")
 
+
+---
 <h3>🏝 Treasure Island Mini Game</h3>
 print("Welcome to Treasure Island. Your mission is to find the treasure.")
 
-choice1 = input("Choose whether you want to go left or right: L or R \n")
+choice1 = input("Choose whether you want to go left or right: L or R \n")<br>
 
-if choice1 == "L":
+if choice1 == "L":<br>
     choice2 = input("You have come to a lake. There is an island in the middle of the lake. "
-                    "Do you want to swim or wait for a boat? S or W \n")
+                    "Do you want to swim or wait for a boat? S or W \n")<br>
 
     if choice2 == "W":
         choice3 = input("You arrived at the island unharmed. "
