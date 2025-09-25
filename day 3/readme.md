@@ -22,6 +22,8 @@ Pizza Order Calculator
 
 Treasure Island Mini Game
 
+---
+
 📊 BMI Check with Conditions
 python
 weight = 85
@@ -35,6 +37,8 @@ elif 18.5 <= bmi < 25:
     print("normal weight")
 elif 25 <= bmi < 29.9:
     print("overweight")
+
+ ---
 🎢 Rollercoaster Height Check
 python
 print("welcome to the roller coaster ")
@@ -44,6 +48,9 @@ if height >= 120:
     print("you can ride the rollercoaster")
 else:
     print("you cant ride the rollercoaster")
+
+
+---
 🔍 Logical Operators
 >= greater than or equal to
 
@@ -53,6 +60,7 @@ else:
 
 != not equal to
 
+---
 🎢 Nested If-Else (Rollercoaster with Age Pricing)
 python
 print("Welcome to the roller coaster ")
@@ -68,7 +76,7 @@ if height >= 120:
         print("You have to pay $7")
     else:
         print("You have to pay $5")
-
+        
 else:
     print("You can't ride the rollercoaster")
 🎢 Rollercoaster with Photos & Special Age Pricing
