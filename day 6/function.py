@@ -10,4 +10,3 @@ def my_function():
 #calling the function 
 my_function()         
 #now the output is show
-
