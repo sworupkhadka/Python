@@ -1,60 +1,22 @@
-# 🎮 Hangman Game (Python Terminal Version)
-
-This is a simple **terminal-based Hangman game** built using Python.  
+Hangman Game (Python Terminal Version)
+<p align="center"> <strong>A simple terminal-based Hangman game built using Python</strong> </p>
+This is a simple terminal-based Hangman game built using Python.
 It uses ASCII art for the hangman stages and randomly selects a word for you to guess.
 
----
-
-## 📂 Project Structure
-
+📂 Project Structure
+text
 hangman/
 │
-├── hangman.py # Main game logic
-└── pics.py # ASCII art for hangman stages
-
-yaml
-Copy code
-
----
-
-## 🧩 Features
-
-- Simple and beginner-friendly code  
-- Random word selection  
-- Tracks guessed letters  
-- Displays hangman progress with ASCII art  
-- Win and lose conditions  
-- Easy to modify and expand  
-
----
-
-## ⚙️ How to Run
-
-1. Make sure you have **Python 3** installed.  
-   Check with:
-   ```bash
-   python3 --version
-Clone or download this project folder.
-
-Open a terminal in the project folder and run:
-
-bash
-Copy code
-python3 hangman.py
+├── hangman.py  # Main game logic
+└── pics.py     # ASCII art for hangman stages
+🧩 Features
+<ul> <li>Simple and beginner-friendly code</li> <li>Random word selection</li> <li>Tracks guessed letters</li> <li>Displays hangman progress with ASCII art</li> <li>Win and lose conditions</li> <li>Easy to modify and expand</li> </ul>
+⚙️ How to Run
+<ol> <li>Make sure you have <strong>Python 3</strong> installed.<br> Check with: <pre><code class="language-bash">python3 --version</code></pre> </li> <li>Clone or download this project folder.</li> <li>Open a terminal in the project folder and run: <pre><code class="language-bash">python3 hangman.py</code></pre> </li> </ol>
 🧠 How It Works
-A random word is chosen from the list.
-
-You guess letters one by one.
-
-For every wrong guess, the hangman drawing progresses.
-
-If you guess all letters, you win 🎉
-
-If the hangman is complete, you lose 💀
-
+<ul> <li>A random word is chosen from the list.</li> <li>You guess letters one by one.</li> <li>For every wrong guess, the hangman drawing progresses.</li> <li>If you guess all letters, you win 🎉</li> <li>If the hangman is complete, you lose 💀</li> </ul>
 🗂️ Example Gameplay
-yaml
-Copy code
+text
 Let's play Hangman!
 
  +---+
@@ -77,19 +39,11 @@ Word: _ _ _ _ _ _
 🧠 hangman.py
 Handles:
 
-Word selection
-
-Guess checking
-
-Displaying hangman progress
-
-Input validation
-
+<ul> <li>Word selection</li> <li>Guess checking</li> <li>Displaying hangman progress</li> <li>Input validation</li> </ul>
 🎨 pics.py
 Stores the ASCII art:
 
 python
-Copy code
 HANGMAN_PICS = [
     """
      +---+
@@ -106,17 +60,8 @@ HANGMAN_PICS = [
     ...
 ]
 🚀 Future Improvements
-Add difficulty levels (Easy, Medium, Hard)
-
-Load words from a text file
-
-Add score tracking
-
-Convert into a GUI (Tkinter) or web version
-
+<ul> <li>Add difficulty levels (Easy, Medium, Hard)</li> <li>Load words from a text file</li> <li>Add score tracking</li> <li>Convert into a GUI (Tkinter) or web version</li> </ul>
 💻 Author
-Sworup Khadka
-A fun and educational Python mini project 🎯
+<strong>Sworup Khadka</strong>
 
-yaml
-Copy code
+A fun and educational Python mini project 🎯
