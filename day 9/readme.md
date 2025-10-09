@@ -28,47 +28,48 @@ Syntax:
 ```python
 my_dict = {"key1": "value1", "key2": "value2"}
 Creating Dictionaries
+
+
 Empty Dictionary
-python
-Copy code
 empty_dict = {}
+
+
 Dictionary with Initial Values
-python
-Copy code
 programming_dictionary = {
     "Bug": "this is a bug",
     "Function": "part of a code",
     "Loop": "do a part over and over again"
 }
+
+
 Accessing Dictionary Values
-python
-Copy code
 print(programming_dictionary["Bug"])  # Output: this is a bug
 Modifying Dictionaries
+
+
 Add a new item
-python
-Copy code
 programming_dictionary["Snippet"] = "a specific part of code"
 print(programming_dictionary)
+
+
 Edit an item
-python
-Copy code
 programming_dictionary["Bug"] = "a moth in your computer"
 print(programming_dictionary)
+
+
 Wipe out a dictionary
-python
-Copy code
-# programming_dictionary = {}
-# print(programming_dictionary)  # Output: {}
+programming_dictionary = {}
+print(programming_dictionary)  # Output: {}
+
+
 Looping Through Dictionaries
-python
-Copy code
 for key in programming_dictionary:
     print(key)                 # Prints keys
     print(programming_dictionary[key])  # Prints corresponding values
+
+
+
 Example: Student Grades
-python
-Copy code
 student_scores = {
     'Harry': 88,
     'Ron': 78,
@@ -90,10 +91,10 @@ for student in student_scores:
     else:
         student_grades[student] = "Fail"
 
-print(student_grades)
+print(student_grades)'
+
+
 Nested Dictionaries
-python
-Copy code
 capitals = {
     "france": "paris",
     "india": "delhi"
@@ -105,9 +106,8 @@ students = {
 }
 
 print(students["Harry"]["Math"])  # Output: 88
+
 Dictionaries with Lists
-python
-Copy code
 travel_log = {
     "france": ["paris", "lille", "dijon"],
     "germany": ["berlin", "munich"]
@@ -118,9 +118,11 @@ print(travel_log["france"][1])  # Output: lille
 
 nested_list = ["A", "B", ["C", "D"]]
 print(nested_list[2][1])  # Output: D
-Practical Example: Bidding Program
-python
-Copy code
+
+
+
+
+## Practical Example: Silent Bidding Program
 def find_highest_bidder(bidding_dictionary):
     winner = ""
     highest_bid = 0
@@ -145,13 +147,11 @@ while continue_bidding:
         find_highest_bidder(bids)
     elif should_continue == "yes":
         print("\n" * 20)
-Summary
-Dictionaries store key-value pairs efficiently.
 
-Values can be primitive types, lists, or even other dictionaries.
 
-Nested dictionaries and lists allow for complex, structured data.
-
-Looping, modifying, and accessing dictionaries is intuitive and flexible.
-
-Practical examples like student grades and bidding programs show real-world use cases.
+**Summary**
+-Dictionaries store key-value pairs efficiently.
+-Values can be primitive types, lists, or even other dictionaries.
+-Nested dictionaries and lists allow for complex, structured data.
+-Looping, modifying, and accessing dictionaries is intuitive and flexible.
+-Practical examples like student grades and bidding programs show real-world use cases.
