@@ -123,6 +123,7 @@ print(nested_list[2][1])  # Output: D
 
 
 ## Practical Example: Silent Bidding Program
+
 def find_highest_bidder(bidding_dictionary):
     winner = ""
     highest_bid = 0
