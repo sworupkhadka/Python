@@ -88,4 +88,4 @@ Type 'y' to get another card, type 'n' to pass: n
 
 Your final hand: [10, 7], final score: 17
 Computer's final hand: [8, 9, 3], final score: 20
-You lose 😭
+You lose 
