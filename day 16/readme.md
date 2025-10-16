@@ -107,5 +107,3 @@ Customizes column alignment.
 Easily extendable for more data.
 
 
-
-
