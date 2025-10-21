@@ -80,6 +80,38 @@ These projects range from console games to utility programs, each highlighting d
 - Interactive True/False quiz  
 - Fully OOP-based using `Question` and `QuizBrain` classes  
 
+
+---
+##  Turtle Graphics Projects
+
+
+---
+### 🔹Sketch Using Turtle
+- Interactive drawing tool using turtle graphics
+- Draw freely with mouse movements
+- Change colors and pen size dynamically
+
+### 🔹 Turtle Race Game
+- Six colorful turtles race to the finish line
+- Place bets on which turtle will win
+- Random movement with finish line detection
+- **Concepts**: Lists, random module, event handling, coordinate system
+
+### 🔹 Spirograph Drawing
+- Creates beautiful geometric spirograph patterns
+- Customizable circle size, gap, and colors
+- **Concepts**: Loops, trigonometry, color manipulation
+
+### 🔹 Random Walk
+- Simulates random movement patterns
+- Random color changes and directions
+- **Concepts**: Random module, loops, coordinate plotting
+
+### 🔷 Multi-Shape Drawing
+- Draws multiple geometric shapes automatically
+- Changes colors for each shape
+- **Concepts**: Functions, loops, geometry calculations
+
 ---
 
 ##  Features Across Projects
