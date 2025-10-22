@@ -112,6 +112,12 @@ These projects range from console games to utility programs, each highlighting d
 - Changes colors for each shape
 - **Concepts**: Functions, loops, geometry calculations
 
+### 🔷 Snake game
+- Classic snake that moves, eats food, grows longer, and ends on collision
+- **Concepts**: Uses turtle graphics, loops, collision detection, and keyboard control
+
+
+
 ---
 
 ##  Features Across Projects
