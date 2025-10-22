@@ -7,18 +7,18 @@ screen = Screen()
 screen.setup(width=600, height=600)
 screen.bgcolor("black")
 screen.title("Snake Game")
-screen.tracer(0)
+screen.tracer(0)            # Turns off automatic screen updates to make animation faster and smoother
 
 # --- Create the snake ---
 starting_positions = [(0, 0), (-20, 0), (-40, 0)]
-segments = []
+segments = []             # Creates an empty list to store all the snake's body segments
 
 for position in starting_positions:
-    new_segment = Turtle("square")
-    new_segment.color("white")
-    new_segment.penup()
-    new_segment.goto(position)
-    segments.append(new_segment)
+    new_segment = Turtle("square")                   # Snake segment
+    new_segment.color("white")                       # Segment color
+    new_segment.penup()                              # Don't draw lines
+    new_segment.goto(position)                       # Set position
+    segments.append(new_segment)                     # Add to snake
 
 head = segments[0]  # first segment = snake head
 
@@ -31,7 +31,7 @@ food.goto(random.randint(-280, 280), random.randint(-280, 280))
 
 # --- Functions for controls ---
 def go_up():
-    if head.heading() != 270:
+    if head.heading() != 270:                        # Prevent reversing
         head.setheading(90)
 
 def go_down():
@@ -56,23 +56,20 @@ screen.onkey(go_right, "Right")
 # --- Main game loop ---
 game_is_on = True
 while game_is_on:
-    screen.update()
-    time.sleep(0.1)
+    screen.update()             # Refresh screen manually
+    time.sleep(0.1)             # Control snake speed
 
-    # move snake from tail to head
+    # Move snake segments from tail to head
     for seg_num in range(len(segments) - 1, 0, -1):
         x = segments[seg_num - 1].xcor()
         y = segments[seg_num - 1].ycor()
         segments[seg_num].goto(x, y)
-    head.forward(20)
+    head.forward(20)            # Move head forward
 
     # --- Detect collision with food ---
     if head.distance(food) < 15:
-        # move food to new random spot
-        food.goto(random.randint(-280, 280), random.randint(-280, 280))
-
-        # add new segment
-        new_segment = Turtle("square")
+        food.goto(random.randint(-280, 280), random.randint(-280, 280))  # Move food
+        new_segment = Turtle("square")    # Add new segment
         new_segment.color("white")
         new_segment.penup()
         segments.append(new_segment)
