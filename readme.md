@@ -116,7 +116,9 @@ These projects range from console games to utility programs, each highlighting d
 - Classic snake that moves, eats food, grows longer, and ends on collision
 - **Concepts**: Uses turtle graphics, loops, collision detection, and keyboard control
 
-
+### 🔷 Pong Game
+ - Two-player classic Pong game with paddles and bouncing ball
+ - **Concepts** : Uses turtle graphics, collision detection, score tracking, and keyboard controls
 
 ---
 
