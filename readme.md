@@ -24,101 +24,108 @@ These projects range from console games to utility programs, each highlighting d
 
 ##  Projects
 
-### 🔹 BMI Calculator
+### 🔹 BMI Calculator (Day 2)
 - Calculates Body Mass Index based on height and weight  
 - Uses simple arithmetic and conditional statements  
 
-### 🔹 Tip Calculator
+### 🔹 Tip Calculator (Day 3)
 - Calculates tip per person for a bill  
 - Covers input handling and basic math operations  
 
-### 🔹 Treasure Hunt Game
+### 🔹 Treasure Hunt Game (Day 3)
 - A text-based adventure game  
 - Uses nested conditionals for decision making  
 
-### 🔹 Pizza Order Program
+### 🔹 Pizza Order Program (Day 3)
 - Calculates pizza order cost based on size, toppings, and quantity  
 - Introduces variables and user input  
 
-### 🔹 Rock, Paper, Scissors
+### 🔹 Rock, Paper, Scissors (Day )
 - Two-player console game  
 - Uses random module and conditional logic  
 
-### 🔹 FizzBuzz
+### 🔹 FizzBuzz (Day 5)
 - Classic programming challenge  
 - Teaches loops and conditionals  
 
-### 🔹 Hangman
+### 🔹 Hangman (Day 7)
 - Guess the word before running out of attempts  
 - Practices loops, lists, and string manipulation  
 
-### 🔹 Cipher Encoding & Decoding
+### 🔹 Cipher Encoding & Decoding (Day 8)
 - Implements simple encryption and decryption  
 - Introduces string handling and loops  
 
-### 🔹 Calculator
+### 🔹 Calculator (Day 10)
 - Basic arithmetic calculator  
 - Demonstrates functions and input validation  
 
-### 🔹 Black Jack Game
+### 🔹 Black Jack Game (Day 11)
 - Card game simulation  
 - Uses lists, loops, and conditionals  
 
-### 🔹 Number Guessing Game
+### 🔹 Number Guessing Game (Day 12)
 - Guess the randomly chosen number  
 - Uses random module and while loops  
 
-### 🔹 Follower Compare Game
+### 🔹 Follower Compare Game (Day 14)
 - Compares Instagram follower counts of two profiles  
 - Introduces data handling and conditional logic  
 
-### 🔹 Coffee Machine Simulator
+### 🔹 Coffee Machine Simulator (Day 15/16)
 - OOP project simulating a coffee machine  
 - Handles drinks, resources, and transactions  
 
-### 🔹 Quiz Game (True/False)
+### 🔹 Quiz Game (True/False) (Day 17)
 - Interactive True/False quiz  
 - Fully OOP-based using `Question` and `QuizBrain` classes  
 
 
 ---
-##  Turtle Graphics Projects
+#  Turtle Graphics Projects
 
 
 ---
-### 🔹Sketch Using Turtle
-- Interactive drawing tool using turtle graphics
-- Draw freely with mouse movements
-- Change colors and pen size dynamically
 
-### 🔹 Turtle Race Game
+### 🔹 Spirograph Drawing (Day 18)
+- Creates beautiful geometric spirograph patterns
+- Customizable circle size, gap, and colors
+- **Concepts**: Loops, trigonometry, color manipulation
+
+### 🔹 Random Walk (Day 18)
+- Simulates random movement patterns
+- Random color changes and directions
+- **Concepts**: Random module, loops, coordinate plotting
+
+### 🔷 Multi-Shape Drawing (Day 18)
+- Draws multiple geometric shapes automatically
+- Changes colors for each shape
+- **Concepts**: Functions, loops, geometry calculations
+
+### 🔹 Turtle Race Game (Day 19)
 - Six colorful turtles race to the finish line
 - Place bets on which turtle will win
 - Random movement with finish line detection
 - **Concepts**: Lists, random module, event handling, coordinate system
 
-### 🔹 Spirograph Drawing
-- Creates beautiful geometric spirograph patterns
-- Customizable circle size, gap, and colors
-- **Concepts**: Loops, trigonometry, color manipulation
+### 🔹Sketch Using Turtle (Day 19)
+- Interactive drawing tool using turtle graphics
+- Draw freely with mouse movements
+- Change colors and pen size dynamically
 
-### 🔹 Random Walk
-- Simulates random movement patterns
-- Random color changes and directions
-- **Concepts**: Random module, loops, coordinate plotting
-
-### 🔷 Multi-Shape Drawing
-- Draws multiple geometric shapes automatically
-- Changes colors for each shape
-- **Concepts**: Functions, loops, geometry calculations
-
-### 🔷 Snake game
+### 🔷 Snake game (Day 20/21)
 - Classic snake that moves, eats food, grows longer, and ends on collision
 - **Concepts**: Uses turtle graphics, loops, collision detection, and keyboard control
 
-### 🔷 Pong Game
+### 🔷 Pong/ Paddle Game (Day 22)
  - Two-player classic Pong game with paddles and bouncing ball
  - **Concepts** : Uses turtle graphics, collision detection, score tracking, and keyboard controls
+
+### 🔷 Turtle road crossing (Day 23)
+- Single-player obstacle avoidance game where a turtle crosses a road with moving cars
+- **Concepts**: Uses turtle graphics, collision detection, difficulty levels, and keyboard controls
+
+
 
 ---
 

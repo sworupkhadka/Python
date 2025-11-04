@@ -1,6 +1,6 @@
-# Day 1  
 
-<h3>## 🐍 Python Basics</h3>  
+
+##  Python Basics
 
 This README explains some basic concepts in Python including:  
 
