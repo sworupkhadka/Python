@@ -126,6 +126,21 @@ These projects range from console games to utility programs, each highlighting d
 - **Concepts**: Uses turtle graphics, collision detection, difficulty levels, and keyboard controls
 
 
+---
+#  Pandas Projects
+---
+
+### 🔹 Central Park Squirrel Census (Day 25)
+- Tracks and saves data about squirrels spotted in Central Park (e.g., color, location, activity)
+- Allows filtering, counting, and analyzing squirrel sightings
+- Saves the cleaned/processed data into a CSV file for future reference
+- **Concepts**: Pandas DataFrames, reading CSV, filtering data, saving CSV
+
+### 🔹 US States Guessing Game (Pandas + CSV) (Day 25)
+- Loads a CSV file containing US states and their coordinate
+- Player guesses states; correct guesses are tracked
+- Missing states can be saved into a new CSV file for practice
+- **Concepts**: Pandas DataFrames, reading/writing CSV, conditional filtering, tracking progress
 
 ---
 
