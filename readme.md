@@ -142,6 +142,13 @@ These projects range from console games to utility programs, each highlighting d
 - Missing states can be saved into a new CSV file for practice
 - **Concepts**: Pandas DataFrames, reading/writing CSV, conditional filtering, tracking progress
 
+### 🔹 NATO Phonetic Alphabet Game (Day 26)
+- Convert letters of a word to NATO phonetic codes
+- Uppercase input to match dictionary keys
+- Use list comprehension for the phonetic list
+- **Concepts:** Dictionaries, list comprehension, strings, input
+
+
 ---
 
 ##  Features Across Projects
@@ -152,6 +159,8 @@ These projects range from console games to utility programs, each highlighting d
 - Modular and clean coding structure for larger projects  
 
 ---
+
+
 
 ##  Requirements
 - Python 3.x  
