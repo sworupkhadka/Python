@@ -148,8 +148,19 @@ These projects range from console games to utility programs, each highlighting d
 - Use list comprehension for the phonetic list
 - **Concepts:** Dictionaries, list comprehension, strings, input
 
+---
+
+#  Tinkter/GUI  Projects
 
 ---
+### 🔹  Miles To Kilometer converter (Day 27)
+- Creates main application window with title, size, and padding using Tkinter
+- Sets up input field and labels for miles input, conversion text, and kilometer output
+- Implements conversion function that calculates kilometers from miles using 1.609 conversion factor
+- Adds calculate button that triggers the conversion and updates the result label when clicked
+
+---
+
 
 ##  Features Across Projects
 - Strong emphasis on **Python fundamentals** (loops, conditionals, functions)  
