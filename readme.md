@@ -159,6 +159,14 @@ These projects range from console games to utility programs, each highlighting d
 - Implements conversion function that calculates kilometers from miles using 1.609 conversion factor
 - Adds calculate button that triggers the conversion and updates the result label when clicked
 
+### 🔹  Pomodoro Timer (Day 28)
+- Creates a Tkinter window with a tomato image, timer display, and labels for title and checkmarks
+- Implements Start and Reset buttons to control the timer and sessions
+- Uses a countdown function to update the timer every second and switch automatically between work, short break, and long break
+- Tracks completed work sessions and displays checkmarks (✓) to show progress
+
+
+
 ---
 
 
