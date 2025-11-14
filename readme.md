@@ -165,6 +165,14 @@ These projects range from console games to utility programs, each highlighting d
 - Uses a countdown function to update the timer every second and switch automatically between work, short break, and long break
 - Tracks completed work sessions and displays checkmarks (✓) to show progress
 
+### 🔹  Random Password Generator (Day 29)
+- Tkinter GUI with website, email, and password fields plus buttons for generate/save
+- Generates strong random passwords and inserts automatically
+- Saves details to data.txt after confirmation, prevents empty fields
+- Clean layout with logo, pre-filled email, and organized grid placement
+
+
+
 
 
 ---
