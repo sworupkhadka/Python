@@ -170,6 +170,7 @@ These projects range from console games to utility programs, each highlighting d
 - Generates strong random passwords and inserts automatically
 - Saves details to data.txt after confirmation, prevents empty fields
 - Clean layout with logo, pre-filled email, and organized grid placement
+- Search feature added and data format changed to json in **day 30** 
 
 
 
