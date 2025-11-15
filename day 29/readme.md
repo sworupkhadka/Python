@@ -89,4 +89,15 @@ python3 main.py
 
 - List manipulation & shuffling
 
+---
+## Improved version with search functionality was added in day 30
 
+---
+### Enter website to search
+![Search Screenshot](img/search.png)
+
+---
+### Data Received
+![Data Screenshot](img/get.png)
+
+---
