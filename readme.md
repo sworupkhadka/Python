@@ -172,6 +172,13 @@ These projects range from console games to utility programs, each highlighting d
 - Clean layout with logo, pre-filled email, and organized grid placement
 - Search feature added and data format changed to json in **day 30** 
 
+### 🔹  Flash Card ( French To English) (Day 31)
+- Tkinter GUI showing French front / English back cards
+- Picks random words and flips after 5 sec
+- “Known” words removed and progress updated
+- Saves progress to words_to_learn.csv
+- Clean layout with images and interactive buttons
+
 
 
 
