@@ -1,6 +1,6 @@
-#  100 Days of Python Bootcamp Projects
+#  Python Bootcamp Projects
 
-This repository contains several **Python projects** I have created while doing the **100 Days of Python Bootcamp**.  
+This repository contains several **Python projects** I have created while doing the **Python Bootcamp**.  
 The projects demonstrate a mix of **basic Python concepts, logic building, and Object-Oriented Programming (OOP)**.
 
 ---
@@ -211,6 +211,8 @@ These projects range from console games to utility programs, each highlighting d
    python3 project_file.py
 Follow on-screen instructions for each project.
 
- Author
+---
+
+## Author
 Sworup Khadka
-Currently learning and exploring Python through the 100 Days of Python Bootcamp.
+Currently learning and exploring Python through the Python Bootcamp.
